@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+ 
+* {
+  margin: 0;
+  padding: 0;
+ 
+  font-family: "Open Sans";
+}
+ 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 1.5rem;
+  color: black;
+ 
+  img {
+    content: url(../img/logo.PNG);
+    width: 300px;
+  }
+ 
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 100px;
+  }
+ 
+  li {
+    font-size: 1.7rem;
+    border-right: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 5px 10px 5px 10px;
+    transition: all 0.5s;
+    text-wrap: nowrap;
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+  li:hover {
+    background-color:rgb(230, 230, 230);
+  }
+  li:first-child {
+    background-color: rgb(217, 54, 75);
+    color: aliceblue;
+  }
+}
+ 
+main { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .inicio {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+ 
+    h1 {
+      position: absolute;
+      top: 30%;
+      left: 34%;
+      color: rgb(255, 255, 255);
+      font-size: 1.0rem;
+      text-shadow: black 1px 1px 10px; 
+      text-wrap: nowrap;
+    }
+    
+  }
+  
+    
+  
+  .container1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3%;
+    flex-grow: 1;
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 3.5px;
+      max-width: 250px;
+      
+     
+    }
+    
+  }
+  .container2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3%;
+    flex-grow: 1;
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 3.5px;
+      max-width: 250px;
+      flex-grow: 1;               
+    }
+  }
+}
