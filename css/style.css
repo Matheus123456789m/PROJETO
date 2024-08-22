@@ -87,10 +87,19 @@ main {
       display: flex;
       flex-direction: column;
       margin-bottom: 3.5px;
-      max-width: 250px;
-      
-     
+      max-width: 250px;       
     }
+    button {
+      background-color: rgb(217, 54, 75);
+      color:black;
+      border: none;
+      padding: 3px;
+      font-size: 16px;
+      /* margin-top: 10px; */
+      border-radius: 10px;
+      /* width: 90px; */
+    }
+   
     
   }
   .container2{
