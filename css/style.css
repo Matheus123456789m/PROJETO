@@ -6,6 +6,7 @@
  
   font-family: "Open Sans";
 }
+
  
 header {
   display: flex;
@@ -15,6 +16,7 @@ header {
   padding-right: 2.5rem;
   padding-top: 1.5rem;
   color: black;
+  
  
   img {
     content: url(../img/logo.PNG);
@@ -93,11 +95,11 @@ main {
       background-color: rgb(217, 54, 75);
       color:black;
       border: none;
-      padding: 3px;
-      font-size: 16px;
+      padding: 2px;
+      font-size: 17px;
       /* margin-top: 10px; */
       border-radius: 10px;
-      /* width: 90px; */
+      /* width: 90px;  */
     }
    
     
@@ -114,7 +116,28 @@ main {
       flex-direction: column;
       margin-bottom: 3.5px;
       max-width: 250px;
-      flex-grow: 1;               
+      flex-grow: 1; 
+                    
+    }
+    button {
+      background-color: rgb(217, 54, 75);
+      color:black;
+      border: none;
+      padding: 3px;
+      font-size: 16px;
+      /* margin-top: 10px; */
+      border-radius: 10px;
+      /* width: 90px;        */
     }
   }
+  .barra-fixa{
+    /* position: fixed; */
+    width: 100%;
+    background-color: rgb(236, 234, 234);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    
+  }  
 }
